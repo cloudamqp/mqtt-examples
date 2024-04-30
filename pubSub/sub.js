@@ -3,7 +3,7 @@ import {} from 'dotenv/config'
 import { clientSettings } from '../config.js';
 
 
-function pubSub() {
+function subscribe() {
     const client = mqtt.connect(
         clientSettings.host, 
         clientSettings.options
@@ -30,5 +30,4 @@ function pubSub() {
     });
 }
   
-
-pubSub()
+subscribe()
