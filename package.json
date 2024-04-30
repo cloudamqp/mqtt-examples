@@ -1,0 +1,13 @@
+{
+  "name": "mqtt-fundamentals",
+  "version": "1.0.0",
+  "description": "Covering MQTT concepts, one step at a time",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "mqtt": "^5.0.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
