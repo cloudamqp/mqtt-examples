@@ -1,6 +1,5 @@
 import {} from 'dotenv/config'
 
-const nodeEnv = process.env.NODE_ENV
 
 const clientSettings = {
     host: process.env.MQTT_BROKER,
@@ -14,4 +13,4 @@ const clientSettings = {
     }
 }
 
-export { nodeEnv, clientSettings }
+export { clientSettings }
