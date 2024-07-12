@@ -1,5 +1,5 @@
 {
-  "name": "mqtt-fundamentals",
+  "name": "@cloudamqp/mqtt-fundamentals",
   "version": "1.0.0",
   "description": "Covering MQTT concepts, one step at a time",
   "type": "module",
